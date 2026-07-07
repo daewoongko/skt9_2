@@ -1,0 +1,218 @@
+[
+    {
+      "case_id": "case_01",
+      "user_profile": {
+        "age_group": "고령자",
+        "gender": "여성",
+        "user_level": "초보자",
+        "health_condition": false,
+        "health_notes": "건강 이상 없음",
+        "current_difficulty": "easy",
+        "main_goal": "기초 하체 근력과 색상 기억력 향상"
+      },
+      "recent_history": [
+        {
+          "session": 1,
+          "mission": "색깔 기억 + 의자 일어나기",
+          "movement_result": "5/10",
+          "cognitive_accuracy": 0.5,
+          "reaction_time_sec": 3.8,
+          "failed_reason": "movement_too_slow"
+        },
+        {
+          "session": 2,
+          "mission": "색깔 기억 + 의자 일어나기",
+          "movement_result": "6/10",
+          "cognitive_accuracy": 0.6,
+          "reaction_time_sec": 3.1,
+          "failed_reason": "movement_too_slow"
+        },
+        {
+          "session": 3,
+          "mission": "색깔 기억 + 의자 일어나기",
+          "movement_result": "6/10",
+          "cognitive_accuracy": 0.6,
+          "reaction_time_sec": 3.0,
+          "failed_reason": "movement_too_slow"
+        }
+      ],
+      "pose_model_output": {
+        "detected_action": "chair_stand",
+        "target_count": 10,
+        "completed_count": 6,
+        "posture_confidence": 0.82,
+        "movement_speed": "slow",
+        "balance_status": "stable",
+        "knee_alignment": "acceptable"
+      },
+      "cognitive_model_output": {
+        "task_type": "color_memory",
+        "total_questions": 5,
+        "correct_answers": 3,
+        "accuracy": 0.6,
+        "avg_reaction_time_sec": 3.1
+      }
+    },
+    {
+      "case_id": "case_02",
+      "user_profile": {
+        "age_group": "고령자",
+        "gender": "남성",
+        "user_level": "중급자",
+        "health_condition": false,
+        "health_notes": "건강 이상 없음",
+        "current_difficulty": "normal",
+        "main_goal": "운동 지속력과 숫자 순서 기억력 향상"
+      },
+      "recent_history": [
+        {
+          "session": 1,
+          "mission": "숫자 순서 기억 + 의자 일어나기",
+          "movement_result": "10/10",
+          "cognitive_accuracy": 0.8,
+          "reaction_time_sec": 2.3,
+          "failed_reason": "none"
+        },
+        {
+          "session": 2,
+          "mission": "숫자 순서 기억 + 의자 일어나기",
+          "movement_result": "11/10",
+          "cognitive_accuracy": 0.85,
+          "reaction_time_sec": 2.1,
+          "failed_reason": "none"
+        },
+        {
+          "session": 3,
+          "mission": "숫자 순서 기억 + 의자 일어나기",
+          "movement_result": "12/10",
+          "cognitive_accuracy": 0.85,
+          "reaction_time_sec": 2.0,
+          "failed_reason": "none"
+        }
+      ],
+      "pose_model_output": {
+        "detected_action": "chair_stand",
+        "target_count": 10,
+        "completed_count": 12,
+        "posture_confidence": 0.91,
+        "movement_speed": "normal",
+        "balance_status": "stable",
+        "knee_alignment": "good"
+      },
+      "cognitive_model_output": {
+        "task_type": "number_sequence",
+        "total_questions": 5,
+        "correct_answers": 4,
+        "accuracy": 0.85,
+        "avg_reaction_time_sec": 2.0
+      }
+    },
+    {
+      "case_id": "case_03",
+      "user_profile": {
+        "age_group": "고령자",
+        "gender": "여성",
+        "user_level": "중급자",
+        "health_condition": true,
+        "health_notes": "무릎 통증 이력 있음",
+        "current_difficulty": "normal",
+        "main_goal": "무릎 부담을 줄이면서 계산 능력과 안정적인 움직임 유지"
+      },
+      "recent_history": [
+        {
+          "session": 1,
+          "mission": "간단한 계산 + 의자 일어나기",
+          "movement_result": "9/10",
+          "cognitive_accuracy": 0.75,
+          "reaction_time_sec": 2.7,
+          "failed_reason": "knee_discomfort"
+        },
+        {
+          "session": 2,
+          "mission": "간단한 계산 + 의자 일어나기",
+          "movement_result": "8/10",
+          "cognitive_accuracy": 0.8,
+          "reaction_time_sec": 2.5,
+          "failed_reason": "knee_discomfort"
+        },
+        {
+          "session": 3,
+          "mission": "간단한 계산 + 의자 일어나기",
+          "movement_result": "8/10",
+          "cognitive_accuracy": 0.8,
+          "reaction_time_sec": 2.4,
+          "failed_reason": "knee_discomfort"
+        }
+      ],
+      "pose_model_output": {
+        "detected_action": "chair_stand",
+        "target_count": 10,
+        "completed_count": 8,
+        "posture_confidence": 0.76,
+        "movement_speed": "normal",
+        "balance_status": "slightly_unstable",
+        "knee_alignment": "uncertain"
+      },
+      "cognitive_model_output": {
+        "task_type": "simple_calculation",
+        "total_questions": 5,
+        "correct_answers": 4,
+        "accuracy": 0.8,
+        "avg_reaction_time_sec": 2.4
+      }
+    },
+    {
+      "case_id": "case_04",
+      "user_profile": {
+        "age_group": "고령자",
+        "gender": "남성",
+        "user_level": "초보자",
+        "health_condition": true,
+        "health_notes": "고혈압 이력 있음, 무리한 운동 주의",
+        "current_difficulty": "easy",
+        "main_goal": "안전한 저강도 움직임과 기초 기억력 향상"
+      },
+      "recent_history": [
+        {
+          "session": 1,
+          "mission": "색깔 기억 + 의자 일어나기",
+          "movement_result": "4/8",
+          "cognitive_accuracy": 0.5,
+          "reaction_time_sec": 4.2,
+          "failed_reason": "fatigue"
+        },
+        {
+          "session": 2,
+          "mission": "색깔 기억 + 의자 일어나기",
+          "movement_result": "4/8",
+          "cognitive_accuracy": 0.5,
+          "reaction_time_sec": 4.0,
+          "failed_reason": "fatigue"
+        },
+        {
+          "session": 3,
+          "mission": "색깔 기억 + 의자 일어나기",
+          "movement_result": "4/8",
+          "cognitive_accuracy": 0.5,
+          "reaction_time_sec": 4.1,
+          "failed_reason": "fatigue"
+        }
+      ],
+      "pose_model_output": {
+        "detected_action": "chair_stand",
+        "target_count": 8,
+        "completed_count": 4,
+        "posture_confidence": 0.68,
+        "movement_speed": "very_slow",
+        "balance_status": "unstable",
+        "knee_alignment": "uncertain"
+      },
+      "cognitive_model_output": {
+        "task_type": "color_memory",
+        "total_questions": 5,
+        "correct_answers": 2,
+        "accuracy": 0.5,
+        "avg_reaction_time_sec": 4.1
+      }
+    }
+  ]
